@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MoveRB : MonoBehaviour
 {
-    [SerializeField] float walk = 2;
-    [SerializeField] float run = 4;
+    [SerializeField] float walk = 3;
+    [SerializeField] float run = 6;
     Vector3 movement = Vector3.zero;
     private Rigidbody rig;
 
